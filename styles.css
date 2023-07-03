@@ -1,0 +1,129 @@
+/* Colors
+   ======
+   Beige:  #E2D1BB
+   Brown:  #46351D
+   Purple: #3F2E56
+  ?Purple: #3c2c53 #7958a6 #bcabd2
+   Red:    #D90429
+
+   Brown monochromatic
+   ===================
+   #000000  #47351e  #8f6b3c  #c29e6f  #e0ceb7  #ffffff 
+*/
+
+* {
+    font-family: "Futura", "Arial", sans-serif;
+    background-color: #E2D1BB;
+    color: #46351D;
+}
+
+p {
+    font-family: "Garamond", "Georgia", Times, serif;
+}
+
+body {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+.stripe {
+    margin: 0 -30px;
+    padding: 0;
+    border: 3px solid #46351D;
+}
+
+.stripe1 {
+    border-color: #3c2c53;
+}
+
+.stripe2 {
+    border-color: #7958a6;
+}
+
+.stripe3 {
+    border-color: #bcabd2;
+}
+
+nav {
+    display: inline-block;
+    width: 15%;
+    margin-right: 5%;
+}
+
+.navitem {
+    display: block;
+    padding: 20px 20px 20px 30px;
+    margin-left: -30px;
+    border-radius: 3px;
+}
+
+/* .navitem:hover {
+    background-color: #46351D;
+    color: white;
+} */
+
+.active {
+    background-color: #46351D;
+    color: white;
+}
+
+main {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+main .top {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#colorbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+}
+
+.colorbar-bar {
+    float: left;
+    height: 100%;
+    width: 33%;
+    padding: 0;
+    margin: 0;
+}
+
+#bar1 {
+    background-color: #c29e6f;
+}
+
+#bar2 {
+    background-color: #8f6b3c;
+}
+
+#bar3 {
+    background-color: #47351e
+}
+
+/* */
+
+a {
+    box-shadow: inset 0 0 0 0 #46351D;
+    margin: 0;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .7s ease-in-out;
+}
+
+.navitem:hover {
+    box-shadow: inset 250px 0 0 0 #46351D;
+    color: white;
+}
